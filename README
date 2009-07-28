@@ -1,0 +1,83 @@
+gstreamer010-plugins-gnonlin
+------------------------------------------
+Non-Linear plugin for the GStreamer media framework.
+
+Runtime requirements:
+  cygwin-1.7.0-52
+  libgcc1-4.3.2-2
+  libglib2.0_0-2.20.4-1
+  libgstreamer0.10_0-0.10.23-1
+
+Build requirements:
+(besides corresponding devel packages)
+  autoconf2.5-2.63-10
+  automake1.10-1.10.2-10
+  binutils-2.19.51-1
+  cygport-0.9.9-1
+  gawk-3.1.7-1
+  gcc4-core-4.3.2-2
+  gtk-doc-1.11-2
+  libtool-2.2.7a-14
+  make-3.81-2
+  pkg-config-0.23b-10
+  python-2.5.4-10
+  sed-4.1.5-2
+
+Canonical website:
+  http://gstreamer.freedesktop.org/
+
+Canonical download:
+  http://gstreamer.freedesktop.org/src/gnonlin/
+
+-------------------------------------------
+
+Build instructions:
+  unpack gstreamer010-plugins-gnonlin-0.10.11-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./gstreamer010-plugins-gnonlin-0.10.11-X.cygport all
+
+This will create:
+  /usr/src/gstreamer010-plugins-gnonlin-0.10.11-X-src.tar.bz2
+  /usr/src/gstreamer010-plugins-gnonlin-0.10.11-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the main package:
+
+  /usr/lib/gstreamer-0.10/cyggnl.dll
+  /usr/lib/gstreamer-0.10/libgnl.la
+  /usr/share/doc/gstreamer0.10-plugins-gnonlin/AUTHORS
+  /usr/share/doc/gstreamer0.10-plugins-gnonlin/COPYING
+  /usr/share/doc/gstreamer0.10-plugins-gnonlin/COPYING.LIB
+  /usr/share/doc/gstreamer0.10-plugins-gnonlin/ChangeLog
+  /usr/share/doc/gstreamer0.10-plugins-gnonlin/NEWS
+  /usr/share/doc/gstreamer0.10-plugins-gnonlin/README
+  /usr/share/gtk-doc/html/gnonlin-0.10/GnlComposition.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/GnlFileSource.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/GnlObject.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/GnlOperation.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/GnlSource.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/ch01.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/ch02.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/gnonlin-0.10.devhelp
+  /usr/share/gtk-doc/html/gnonlin-0.10/gnonlin-0.10.devhelp2
+  /usr/share/gtk-doc/html/gnonlin-0.10/home.png
+  /usr/share/gtk-doc/html/gnonlin-0.10/index.html
+  /usr/share/gtk-doc/html/gnonlin-0.10/index.sgml
+  /usr/share/gtk-doc/html/gnonlin-0.10/left.png
+  /usr/share/gtk-doc/html/gnonlin-0.10/right.png
+  /usr/share/gtk-doc/html/gnonlin-0.10/style.css
+  /usr/share/gtk-doc/html/gnonlin-0.10/up.png
+
+------------------
+
+Port Notes:
+
+----- version 0.10.11-1 -----
+Initial release for Cygwin 1.7.
+
+
+Cygwin port maintained by:
+http://sourceware.org/cygwinports/
