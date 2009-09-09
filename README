@@ -3,10 +3,10 @@ gstreamer010-plugins-gnonlin
 Non-Linear plugin for the GStreamer media framework.
 
 Runtime requirements:
-  cygwin-1.7.0-52
+  cygwin-1.7.0-60
   libgcc1-4.3.2-2
-  libglib2.0_0-2.20.4-1
-  libgstreamer0.10_0-0.10.23-1
+  libglib2.0_0-2.20.5-1
+  libgstreamer0.10_0-0.10.24-1
 
 Build requirements:
 (besides corresponding devel packages)
@@ -32,15 +32,15 @@ Canonical download:
 -------------------------------------------
 
 Build instructions:
-  unpack gstreamer010-plugins-gnonlin-0.10.11-X-src.tar.bz2
+  unpack gstreamer010-plugins-gnonlin-0.10.13-X-src.tar.bz2
     if you use setup to install this src package, it will be
 	 unpacked under /usr/src automatically
   cd /usr/src
-  cygport ./gstreamer010-plugins-gnonlin-0.10.11-X.cygport all
+  cygport ./gstreamer010-plugins-gnonlin-0.10.13-X.cygport all
 
 This will create:
-  /usr/src/gstreamer010-plugins-gnonlin-0.10.11-X-src.tar.bz2
-  /usr/src/gstreamer010-plugins-gnonlin-0.10.11-X.tar.bz2
+  /usr/src/gstreamer010-plugins-gnonlin-0.10.13-X-src.tar.bz2
+  /usr/src/gstreamer010-plugins-gnonlin-0.10.13-X.tar.bz2
 
 -------------------------------------------
 
@@ -74,6 +74,9 @@ Files included in the main package:
 ------------------
 
 Port Notes:
+
+----- version 0.10.13-1 -----
+Version bump.
 
 ----- version 0.10.11-1 -----
 Initial release for Cygwin 1.7.
