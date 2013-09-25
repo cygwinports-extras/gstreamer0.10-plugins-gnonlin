@@ -1,5 +1,0 @@
-category: Audio Video
-requires: libgcc1 libglib2.0_0 libgstreamer0.10_0
-sdesc: "Non-linear plugin for the GStreamer multimedia framework (0.10 branch)"
-ldesc: "Non-linear plugin for the GStreamer multimedia framework (0.10 branch)"
-
